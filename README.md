@@ -1,2 +1,2 @@
-# model__20_wykluczanie_xor_pdbd
-Lec | Łuk - wykluczanie się związków
+# model__20_rekurencja_pdbd
+Lec | Hierarchia i zw. klucz obcy rekurencyjny
