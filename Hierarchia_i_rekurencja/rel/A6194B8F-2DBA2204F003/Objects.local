@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="6491F3D1-679A-6099-FEAD-D24AA33AD14A" name="PRACOWNIK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="5C0EDB11-2B95-99D0-1B22-CD72DEC85E16" name="PRACOWNIK_PRACOWNIK_FK" seqName="seg_0" containerID="6491F3D1-679A-6099-FEAD-D24AA33AD14A" refContainerID="6491F3D1-679A-6099-FEAD-D24AA33AD14A" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" propertySourceId="6491F3D1-679A-6099-FEAD-D24AA33AD14A" propertyTargetId="6491F3D1-679A-6099-FEAD-D24AA33AD14A"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

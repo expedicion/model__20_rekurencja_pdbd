@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6491F3D1-679A-6099-FEAD-D24AA33AD14A" name="PRACOWNIK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>6F5C1CDD-0F75-158D-2C32-6C09B247DF8F</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRACOWNIKA" id="D4C3FCE3-8C84-4B04-C350-E914C95A71FA">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>449E2EA2-5AB9-1FE6-C822-51D1F41B6476</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="43F0A137-0BD9-F23D-68DF-4870F7C57AF4">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>E17148D8-374E-403C-5697-82D2355374D5</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="2CD2051E-F563-A69C-1C86-A70C3277F334">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>8335E952-06A9-C9E8-EB76-4B5A45C182E3</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESEL" id="14978214-0A8D-736C-2756-02A46755A01B">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>862F3524-C26C-F390-67B8-86C7F6703A5E</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PRACOWNIKA1" id="7029E8EB-362D-A1BA-2FE0-2D6AF63AD0A7">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>BEDD407F-08D0-AD6B-074E-CD94AFFD7FA1</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C0EDB11-2B95-99D0-1B22-CD72DEC85E16" referredColumn="D4C3FCE3-8C84-4B04-C350-E914C95A71FA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="465AA36A-C258-9BE0-195B-30235DCACA9B" name="PRACOWNIK_PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>3E4FC597-0B27-B8AE-D28D-95FFEF8F8F65</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C3FCE3-8C84-4B04-C350-E914C95A71FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64252727-4C52-2EDC-2C32-D422BE8E3759" name="PRACOWNIK_PRACOWNIK_FK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:59:05 UTC</createdTime>
+<generatorID>16800C42-C24A-408F-A5B1-55DE1206BF6A</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7029E8EB-362D-A1BA-2FE0-2D6AF63AD0A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

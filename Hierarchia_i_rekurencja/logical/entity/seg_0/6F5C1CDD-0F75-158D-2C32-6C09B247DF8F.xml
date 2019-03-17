@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F5C1CDD-0F75-158D-2C32-6C09B247DF8F" name="PRACOWNIK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:56:52 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PRACOWNIKA" id="449E2EA2-5AB9-1FE6-C822-51D1F41B6476">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:05 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWISKO" id="E17148D8-374E-403C-5697-82D2355374D5">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:15 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IMIE" id="8335E952-06A9-C9E8-EB76-4B5A45C182E3">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:24 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESEL" id="862F3524-C26C-F390-67B8-86C7F6703A5E">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:35 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_PRACOWNIKA1" id="BEDD407F-08D0-AD6B-074E-CD94AFFD7FA1">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:58 UTC</createdTime>
+<generatorID>16800C42-C24A-408F-A5B1-55DE1206BF6A</generatorID>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>449E2EA2-5AB9-1FE6-C822-51D1F41B6476</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E4FC597-0B27-B8AE-D28D-95FFEF8F8F65" name="PRACOWNIK PK">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:12 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>449E2EA2-5AB9-1FE6-C822-51D1F41B6476</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

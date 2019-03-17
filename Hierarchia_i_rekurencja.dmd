@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Hierarchia_i_rekurencja" id="FBEBAF98-9F50-85CB-14BD-D7D208B51424" version="3.5">
+<createdBy>kozelski</createdBy>
+<createdTime>2019-03-11 17:53:28 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FBEBAF98-9F50-85CB-14BD-D7D208B51424</designId>
+</OSDM_Design>

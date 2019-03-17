@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="AB50DE61-E6AC-3E86-5F33-0CEDA04480FF">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:53:28 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

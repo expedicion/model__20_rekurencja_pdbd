@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="16800C42-C24A-408F-A5B1-55DE1206BF6A">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:57:58 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<engineerTo>
+<item key="A6194B8F-4C9E-D8B8-7640-2DBA2204F003" value="true"/>
+</engineerTo>
+<targetPk>3E4FC597-0B27-B8AE-D28D-95FFEF8F8F65</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F5C1CDD-0F75-158D-2C32-6C09B247DF8F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6F5C1CDD-0F75-158D-2C32-6C09B247DF8F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

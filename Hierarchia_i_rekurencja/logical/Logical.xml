@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="7637A317-A7A6-0282-AD58-8A37F643E49E" mainViewID="4C4DD0CF-6F17-2E62-6ADD-4AC2768071D6">
+<createdBy>nostromo</createdBy>
+<createdTime>2019-03-11 17:53:28 UTC</createdTime>
+<ownerDesignName>Hierarchia_i_rekurencja</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
